@@ -14,7 +14,7 @@ let tempo = 3000;
 //CRIANDO A FUNÇÃO SLIDESHOW
 
 function slideShow(){
-    document.getElementById("image").src = imagens[index]
+    document.getElementById("image").src=imagens[index];
     index++;
     if (index == imagens.length){
         index=0;
